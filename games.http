@@ -1,0 +1,29 @@
+GET http://localhost:5206
+
+###
+GET http://localhost:5206/games
+
+###
+GET http://localhost:5206/games/2
+
+###
+POST  http://localhost:5206/games
+Content-Type: application/json
+
+{
+  "name": "Game 5",
+  "genre": "Adventuredd",
+  "price": 49.99,
+  "releaseDate": "2023-09-15"
+}
+
+###
+PUT  http://localhost:5206/games/2
+Content-Type: application/json
+
+{
+  "name": "Game 2 edited ss",
+  "genre": "Adventure",
+  "price": 49.99,
+  "releaseDate": "2023-09-15"
+}

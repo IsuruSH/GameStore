@@ -1,0 +1,52 @@
+# Build results
+bin/
+obj/
+out/
+Debug/
+Release/
+.vscode/
+
+# Rider / JetBrains
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code
+.vscode/
+.history/
+
+# NuGet
+*.nupkg
+.nuget/
+packages/
+project.lock.json
+project.assets.json
+
+# Logs & Database
+*.log
+logs/
+*.mdf
+*.ldf
+sqlite.db
+sqlite.db-journal
+
+# Entity Framework
+Migrations/
+
+# ASP.NET Core
+appsettings.json
+appsettings.Development.json
+
+# IIS
+*.vs/
+.vs/
+*.config
+
+# Node.js (if using frontend with React/Angular)
+ClientApp/node_modules/
+
+# Other
+*.DS_Store
+Thumbs.db
