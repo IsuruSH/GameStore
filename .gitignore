@@ -30,6 +30,10 @@ logs/
 *.mdf
 *.ldf
 sqlite.db
+GameStore.db
+GameStore.db-shm
+GameStore.db-wal
+*.db
 sqlite.db-journal
 
 # Entity Framework

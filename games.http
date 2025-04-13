@@ -11,8 +11,8 @@ POST  http://localhost:5206/games
 Content-Type: application/json
 
 {
-
-  "genre": "Adventuredd",
+  "name": "Game Isuru",
+  "genreId": 2,
   "price": 49.99,
   "releaseDate": "2023-09-15"
 }
